@@ -1,0 +1,77 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    width:100%;
+    height:auto;
+    background-color:#88e28f;
+    margin-bottom: 10px;
+}
+#title-bar{
+    height:80px;
+}
+#title{
+    padding: 25px 0px 25px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+#form-outer{
+    border-radius: 30px;
+    height:auto;
+    margin:0px 180px 0px 180px;
+    background-color: antiquewhite;
+    color:black;
+}
+#description{
+    padding:20px 0px 20px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.row-tab{
+    height: 50px;
+    width:100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.left-tab{
+    padding-top: 15px;
+    padding-right:8px; 
+    text-align: right;
+    height: 35px;
+    width:49%;
+    float: left;
+}
+.right-tab{
+    padding-top: 15px;
+    padding-left: 8px;
+    text-align: left;
+    height: 35px;
+    width: 49%;
+    float: right;
+}
+.input{
+    height: 25px;
+    width:300px;
+    border-radius: 10px;
+}
+.radio{
+    height: 100px;
+}
+#radio-label{
+    padding-left: 50px;
+}
+#check-label{
+    padding-left: 50px;
+}
+#textarea{
+    height: 70px;
+}
+.button{
+    background-color: #88e28f;
+    width:200px;
+    text-align: center;
+    height:30px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}

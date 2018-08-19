@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <div id="title-bar">
+        <h1 id="title">Survey Form</h1>
+        </div>
+        <div id="form-outer">
+            <p id="description">Let us know how we can improve FreeCodeCamp</p>
+            <form id="survey-form">
+                <div class="row-tab">
+                    <div class="left-tab">
+                        <label id="name-label">
+                            Name:
+                        </label>
+                    </div>
+                    <div class="right-tab">
+                        <input type="text" placeholder="Enter Your Name" id="name" class="input" required>
+                    </div>
+                </div>
+                <div class="row-tab">
+                    <div class="left-tab">
+                        <label id="email-label">
+                            Email:
+                        </label>
+                    </div>
+                    <div class="right-tab">
+                        <input type="email" placeholder="Enter Your Email" id="email" class="input" required>       
+                    </div>
+                </div>
+                <div class="row-tab">
+                    <div class="left-tab">
+                        <label id="number-label">
+                            Age:
+                        </label>
+                    </div>
+                    <div class="right-tab">
+                        <input type="number" placeholder="Age" id="number" min="10" max="90" class="input" required>       
+                    </div>
+                </div>
+                <div class="row-tab">
+                    <div class="left-tab">
+                        <label id="dropdown-label">
+                            Which option best describes your current role?
+                        </label>
+                    </div>
+                    <div class="right-tab">
+                        <select  id="dropdown" class="input">
+                            <option checked>Student</option>
+                            <option>Full Time Job</option>
+                            <option>Full Time Learner</option>
+                            <option>Prefer Not to Say</option>
+                        </select>       
+                    </div>
+                </div>
+                <div class="row-tab radio">
+                    <div class="left-tab">
+                        <label id="radio-label">
+                            How likely is that you would recommend freeCodeCamp to a friend?
+                        </label>
+                    </div>
+                    <div class="right-tab">
+                        <input type="radio" name="recommend" value="def">Definitely<br>
+                        <input type="radio" name="recommend" value="maybe">Maybe<br>
+                        <input type="radio" name="recommend" value="not">Not Sure<br>   
+                    </div>
+                </div>
+                <div class="row-tab radio">
+                    <div class="left-tab">
+                        <label id="check-label">
+                            Things that should be improved in the future</br>
+                            (Check all that apply):
+                        </label>
+                    </div>
+                    <div class="right-tab">
+                        <input type="checkbox" value="challenge">Challenges</br>
+                        <input type="checkbox" value="openSource">Open Source Community</br>
+                        <input type="checkbox" value="videos">Videos</br>
+                    </div>
+                </div>
+                <div class="row-tab radio">
+                    <div class="left-tab">
+                        <label id="check-label">
+                            Any Comments or Suggestions?   
+                        </label>
+                    </div>
+                    <div class="right-tab">
+                        <textarea class="input" id="textarea" placeholder="Enter your Comments here"></textarea>
+                    </div>
+                </div>
+                <div class="row-tab">
+                    <div class="left-tab">
+                        <input type="submit" value="Submit" id="submit" name="Submit" class="button">                                
+                    </div>
+                    <div class="right-tab">
+                        <input type="reset" value="Reset" name="Reset" class="button">       
+                    </div>
+                </div>
+            </form> 
+        </div>
+    </body>
+</html>
